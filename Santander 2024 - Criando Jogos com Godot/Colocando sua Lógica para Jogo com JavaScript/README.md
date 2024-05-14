@@ -35,3 +35,52 @@ Desafio 1:
 			<td>Disponível</td>
 		</tr>
 	</tbody>
+<table>
+Desafio 2:
+
+<h2>Descrição</h2>
+
+<p>Na terra de Diópolis, uma série de guerreiros destemidos serão submetidos ao rigoroso "Julgamento do Guerreiro". Este teste de habilidades determinará se estão preparados para enfrentar o desafio supremo: um confronto com um poderoso <em>boss</em>. Antes que a batalha comece, cada guerreiro será minuciosamente avaliado para garantir que seu nível seja adequado ao desafio que os aguarda. Conscientes de que o boss atinge o formidável nível 50, a missão é retornar uma mensagem para cada guerreiro informando a sua aptidão.</p>
+
+<h2>Entrada</h2>
+
+<p>A entrada consiste no nome e no nível do guerreiro que se submeterá ao teste.</p>
+
+<h2>Saída</h2>
+
+<p>A saída esperada é uma mensagem com o nome do guerreiro informando a sua aptidão.</p>
+
+<ul>
+	<li>Para guerreiros com nível 40 ou superior, a mensagem deverá ser:&nbsp;<strong>“Parabéns, valente &lt;guerreiro&gt;! Sua coragem e habilidade são notáveis!</strong>”. &nbsp;</li>
+	<li>Nos casos em que o nível seja igual a 30 e menor que 40, a mensagem deverá ser: "<strong>Quase lá, &lt;guerreiro&gt;! Continue treinando!</strong>".</li>
+	<li><strong>&nbsp;</strong>Caso seja inferior a 30, a mensagem deverá ser: “<strong>Ainda é cedo, jovem &lt;guerreiro&gt;. Treine mais!</strong>".</li>
+</ul>
+
+<p><strong>Obs.: </strong>Em todos os casos, a palavra “guerreiro” deve ser substituída pelo nome do mesmo.</p>
+
+<h2>Exemplos</h2>
+
+<p>A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.</p>
+
+<table>
+	<tbody>
+		<tr>
+			<td><strong>Entrada</strong></td>
+			<td><strong>Saída</strong></td>
+		</tr>
+		<tr>
+			<td>Felipon<br>
+			41</td>
+			<td>Parabéns, valente Felipon! Sua coragem e habilidade são notáveis!</td>
+		</tr>
+		<tr>
+			<td>Agmenus<br>
+			39</td>
+			<td>Quase lá, Agmenus! Continue treinando!</td>
+		</tr>
+		<tr>
+			<td>Ellidan<br>
+			25</td>
+			<td>Ainda é cedo, jovem Ellidan. Treine mais!</td>
+		</tr>
+	</tbody>
