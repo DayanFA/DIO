@@ -1,4 +1,4 @@
-<div><h1>Entendendo o Desafio</h1>
+<h1>Entendendo o Desafio</h1>
 
 <div>&nbsp;</div>
 
@@ -53,4 +53,4 @@ Se XP for maior ou igual a 10.001 = Radiante</p>
 <div>&nbsp;</div>
 </div>
 
-<div>Bons estudos&nbsp;😉</div></div>
+<div>Bons estudos&nbsp;😉</div>
