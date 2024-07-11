@@ -122,3 +122,40 @@ Desafio 03:
 		</tr>
 	</tbody>
 </table> <br><br>
+Desafio 4:
+<h2>Descrição</h2>
+
+<p>Você está desenvolvendo um sistema de votação para um jogo multiplayer online. O objetivo é permitir que os jogadores votem em qual mapa eles gostariam de jogar na próxima partida.</p>
+
+<h2>Entrada</h2>
+
+<p>A entrada consistirá em uma lista de votos dos jogadores. Cada voto será representado por uma letra, indicando o mapa escolhido pelo jogador. Os votos serão apresentados em uma única linha, separados por espaços.</p>
+
+<h2>Saída</h2>
+
+<p>A saída esperada é o mapa que recebeu mais votos.</p>
+
+<h2>Exemplos</h2>
+
+<p>A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.</p>
+
+<table>
+	<tbody>
+		<tr>
+			<td><strong>Entrada</strong></td>
+			<td><strong>Saída</strong></td>
+		</tr>
+		<tr>
+			<td>A B C B A B A A</td>
+			<td>A</td>
+		</tr>
+		<tr>
+			<td>B A A B C C B B</td>
+			<td>B</td>
+		</tr>
+		<tr>
+			<td>C B B C C A A C</td>
+			<td>C</td>
+		</tr>
+	</tbody>
+</table> <br><br>
