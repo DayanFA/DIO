@@ -159,3 +159,46 @@ Desafio 4:
 		</tr>
 	</tbody>
 </table> <br><br>
+Desafio 5:
+<h2>Descrição</h2>
+
+<p>Você está desenvolvendo um sistema para um jogo de combate onde os jogadores acumulam dinheiro ao longo dos rounds e no início de cada round devem comprar um item ou economizar para rounds futuros. No início da partida, o jogador possui um saldo inicial. Durante o jogo, o saldo do jogador é ajustado de acordo com o resultado de cada round: se o jogador ganhar, o saldo aumenta em 15%, se o jogador perder, o saldo aumenta em apenas 5%, e se for um round bônus, o saldo aumenta em 20%. Sua tarefa é criar um método que determine se um jogador deve comprar um item ou economizar com base no saldo atual.</p>
+
+<h2>Entrada</h2>
+
+<p>A entrada será composta por três valores: o primeiro valor será um número inteiro representando o saldo inicial do jogador; o segundo valor será "ganhou" se o jogador ganhou o último round, "perdeu" se o jogador perdeu o último round ou “bônus” se for um round bônus; o terceiro valor será um número inteiro representando o custo do item que o jogador deseja comprar neste round.</p>
+
+<h2>Saída</h2>
+
+<p>Imprima a mensagem "Comprar" se o jogador tiver saldo suficiente para comprar o item, caso contrário deve retornar "Economizar".</p>
+
+<h2>Exemplos</h2>
+
+<p>A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.</p>
+
+<table>
+	<tbody>
+		<tr>
+			<td><strong>Entrada</strong></td>
+			<td><strong>Saída</strong></td>
+		</tr>
+		<tr>
+			<td>100&nbsp;<br>
+			ganhou<br>
+			115</td>
+			<td>Comprar</td>
+		</tr>
+		<tr>
+			<td>88<br>
+			bônus<br>
+			100</td>
+			<td>Comprar</td>
+		</tr>
+		<tr>
+			<td>98&nbsp;<br>
+			perdeu<br>
+			120</td>
+			<td>Economizar</td>
+		</tr>
+	</tbody>
+</table> <br><br>
