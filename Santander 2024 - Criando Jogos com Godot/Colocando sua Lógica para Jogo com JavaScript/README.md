@@ -84,3 +84,41 @@ Desafio 2:
 			<td>Ainda é cedo, jovem Ellidan. Treine mais!</td>
 		</tr>
 	</tbody>
+
+Desafio 03:
+<h2>Descrição</h2>
+
+<p>Você foi convocado pelo reino de Diolaris para uma missão de suma importância: auxiliar os aventureiros recém-chegados na escolha de sua classe. As opções são: <strong>Guerreiro</strong>, <strong>Mago </strong>e <strong>Arqueiro</strong>. Para isso, você deve criar um programa que solicite aos aventureiros a escolha de sua classe. Com base nessa escolha, o programa deve exibir uma mensagem indicando a classe selecionada. Se o aventureiro inserir uma classe inválida, uma mensagem de orientação deve ser exibida, instruindo-o a escolher entre as opções válidas.</p>
+
+<h2>Entrada</h2>
+
+<p>A entrada será o nome da classe escolhida.</p>
+
+<h2>Saída</h2>
+
+<p>A saída esperada é uma mensagem informando a classe escolhida dentre as três opções: Guerreiro, Mago e Arqueiro. Por exemplo, caso tenha escolhido Guerreiro, deverá imprimir “<strong>Você escolheu a classe Guerreiro!</strong>”. Caso a entrada seja diferente de uma dessas três classes, deverá retornar a mensagem: “<strong>Classe inválida! Escolha entre Guerreiro, Mago ou Arqueiro.</strong>”</p>
+
+<h2>Exemplos</h2>
+
+<p>A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.</p>
+
+<table>
+	<tbody>
+		<tr>
+			<td><strong>Entrada</strong></td>
+			<td><strong>Saída</strong></td>
+		</tr>
+		<tr>
+			<td>Guerreiro</td>
+			<td>Você escolheu a classe Guerreiro!</td>
+		</tr>
+		<tr>
+			<td>Mago</td>
+			<td>Você escolheu a classe Mago!</td>
+		</tr>
+		<tr>
+			<td>Arqueiro</td>
+			<td>Você escolheu a classe Arqueiro!</td>
+		</tr>
+	</tbody>
+</table> <br><br>
