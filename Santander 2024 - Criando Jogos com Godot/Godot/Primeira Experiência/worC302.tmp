@@ -1,0 +1,53 @@
+[gd_scene load_steps=5 format=3 uid="uid://dwdtiq7bkpk28"]
+
+[ext_resource type="Script" path="res://scripts/gamer_manager.gd" id="1_dfilc"]
+[ext_resource type="PackedScene" uid="uid://dcei5x23v0713" path="res://objects/box_regular.tscn" id="2_7q6pq"]
+[ext_resource type="PackedScene" uid="uid://c05el1wtfxwdo" path="res://objects/box_bouncy.tscn" id="3_k1mw2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bvm6a"]
+size = Vector2(1022.5, 71)
+
+[node name="World" type="Node2D"]
+position = Vector2(-151, -106)
+
+[node name="GameManager" type="Node" parent="."]
+script = ExtResource("1_dfilc")
+
+[node name="Background" type="ColorRect" parent="."]
+offset_left = 3.0
+offset_top = 20.0
+offset_right = 1019.0
+offset_bottom = 558.0
+color = Color(0, 0.498039, 1, 1)
+
+[node name="RigidBody2D" parent="." instance=ExtResource("2_7q6pq")]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(513.75, 544.5)
+shape = SubResource("RectangleShape2D_bvm6a")
+
+[node name="ColorRect2" type="ColorRect" parent="StaticBody2D/CollisionShape2D"]
+offset_left = -511.75
+offset_top = -36.5
+offset_right = 512.25
+offset_bottom = 16.5
+
+[node name="RigidBody2D2" parent="." instance=ExtResource("2_7q6pq")]
+position = Vector2(-425, 259)
+
+[node name="RigidBody2D3" parent="." instance=ExtResource("2_7q6pq")]
+position = Vector2(18, 243)
+
+[node name="RigidBody2D4" parent="." instance=ExtResource("2_7q6pq")]
+position = Vector2(-176, 188)
+
+[node name="RigidBody2D5" parent="." instance=ExtResource("3_k1mw2")]
+position = Vector2(-290, 198)
+
+[node name="RigidBody2D6" parent="." instance=ExtResource("3_k1mw2")]
+position = Vector2(-68, 244)
+
+[node name="RigidBody2D7" parent="." instance=ExtResource("3_k1mw2")]
+position = Vector2(-438, 366)

@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://c05el1wtfxwdo"]
+
+[ext_resource type="PackedScene" uid="uid://dcei5x23v0713" path="res://objects/box_regular.tscn" id="1_tusy2"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_1ws3r"]
+friction = 0.3
+bounce = 0.98
+
+[node name="RigidBody2D" instance=ExtResource("1_tusy2")]
+mass = 1.52
+physics_material_override = SubResource("PhysicsMaterial_1ws3r")
+
+[node name="ColorRect" parent="CollisionShape2D" index="0"]
+color = Color(0.956863, 0, 0, 1)
